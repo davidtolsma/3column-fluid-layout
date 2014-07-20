@@ -1,0 +1,118 @@
+body, html {
+  margin: 0;
+  overflow: hidden;
+  height:100%;
+}
+
+header {
+  background-color: green;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+subheader {
+  height: 30px;
+  top: 60px;
+  width: 100%;
+  position: fixed;
+  background-color: blue;
+}
+
+.subheader {
+  margin-top: 30px;
+}
+
+#content {
+  top: 60px;
+  position: absolute;
+}
+.primary-aside {
+  left: 200px;
+}
+
+.secondary-aside {
+  right: 260px;
+}
+
+#center {
+  top: 60px;
+  bottom: 0;
+}
+
+#account-info {
+  top: 0px;
+  background-color: #ddd;
+  color: black;
+  z-index: 100;
+  left: 200px;
+  right: 260px;
+}
+
+#center {
+  position: absolute;
+  overflow-y: scroll;
+}
+
+#center, #account-info {
+  position: absolute;
+}
+
+#branding {
+  top: 0px;
+  background-color: white;
+}
+
+#primary-aside {
+  top: 60px;
+  background-color: #FC6E51;
+  overflow-y: scroll; 
+}
+
+#primary-aside, #branding {
+  position: absolute;
+  
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height:100%;
+}
+
+
+#secondary-aside {
+  top: 60px;
+  background-color: #4FC1E9;
+}
+
+#user-info {
+  top: 0px;
+  background-color: gray;
+}
+
+#secondary-aside, #user-info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow-y: scroll;
+  width: 260px;
+}
+
+#primary-aside, #branding {
+  text-align: center;
+}
+
+#secondary-aside, #user-info {
+  height:100%;
+  text-align: center;
+}
+#center, #account-info {
+  height:100%;
+}
+
+footer {
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
